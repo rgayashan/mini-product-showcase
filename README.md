@@ -64,8 +64,8 @@ This project is a comprehensive demonstration of modern web development techniqu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/product-showcase.git
-cd product-showcase
+git clone https://github.com/rgayashan/mini-product-showcase.git
+cd mini-product-showcase
 ```
 
 2. Install dependencies:
@@ -149,8 +149,6 @@ product-showcase/
 ### 4. Accessibility
 - **Semantic HTML**: Using proper HTML tags for better accessibility
 - **Form Labels**: Properly associated labels with form controls
-- **Keyboard Navigation**: Ensuring keyboard accessibility
-- **ARIA Attributes**: When necessary for improved screen reader support
 - **Color Contrast**: Ensuring sufficient contrast for text readability
 
 ### 5. SEO Optimization
@@ -166,7 +164,6 @@ product-showcase/
 ### 7. Security
 - **Input Validation**: Client-side and server-side validation for forms
 - **API Security**: Proper error handling in API routes
-- **Environment Variables**: For storing sensitive configuration
 
 ## 📈 Future Improvements
 
@@ -204,4 +201,4 @@ Rajitha Gayashan - [contact.gayashan@gmail.com](mailto:contact.gayashan@gmail.co
 
 ---
 
-Built with using Next.js and Tailwind CSS
+Built with using Next.js and Tailwind CSS - 2025/05/11

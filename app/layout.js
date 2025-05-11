@@ -7,8 +7,8 @@ import SplashScreen from '../components/SplashScreen';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Product Showcase',
-  description: 'A mini product showcase application built with Next.js',
+  title: 'Product Showcase - Modern E-commerce Experience',
+  description: 'Discover our cutting-edge product showcase built with Next.js 14 and Tailwind CSS v4. Experience seamless shopping with static and server-side rendering, responsive design, dark mode, and modern UI/UX practices.',
 };
 
 /**
