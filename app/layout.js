@@ -11,6 +11,18 @@ export const metadata = {
   description: 'A mini product showcase application built with Next.js',
 };
 
+/**
+ * The RootLayout component serves as the primary layout for the application.
+ *
+ * This component wraps the entire application in a consistent layout structure,
+ * providing global styling and elements such as the header, footer, and splash screen.
+ * It ensures that the main content of each page is centered and responsive.
+ *
+ * @param {Object} props - The properties for the component.
+ * @param {React.ReactNode} props.children - The content to be rendered inside the main layout.
+ * @returns A JSX element representing the root layout structure of the application.
+ */
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

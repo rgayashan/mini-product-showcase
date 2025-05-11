@@ -1,5 +1,15 @@
 import Link from 'next/link';
 
+/**
+ * The Home component renders the homepage of the Product Showcase application.
+ *
+ * This component displays a welcoming message and provides links to view
+ * products and contact the company. It is styled with a centered layout 
+ * and includes a heading, subheading, and two buttons for navigation.
+ *
+ * @returns A JSX element representing the homepage content.
+ */
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center py-12">

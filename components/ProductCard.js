@@ -1,6 +1,27 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+/**
+ * A React component that renders a product card with detailed information.
+ * 
+ * The card includes an image, title, category, rating, price, and a link to the product's detail page.
+ * It displays a sale badge and applies various hover effects for visual enhancement.
+ * 
+ * Props:
+ * - product: An object containing product details such as id, image, title, category, rating, and price.
+ * 
+ * @param {Object} props - The props for the component.
+ * @param {Object} props.product - The product data to display in the card.
+ * @param {string} props.product.id - The unique identifier for the product.
+ * @param {string} props.product.image - The URL of the product image.
+ * @param {string} props.product.title - The title of the product.
+ * @param {string} props.product.category - The category of the product.
+ * @param {Object} props.product.rating - The rating of the product.
+ * @param {number} props.product.rating.rate - The average rating score of the product.
+ * @param {number} props.product.rating.count - The total number of ratings.
+ * @param {number} props.product.price - The price of the product.
+ */
+
 export default function ProductCard({ product }) {
   return (
     <Link 

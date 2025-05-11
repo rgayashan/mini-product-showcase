@@ -1,3 +1,12 @@
+
+/**
+ * Footer component for the Product Showcase website.
+ *
+ * This component renders the footer section of the website, which includes links to social media, quick links, and a copyright notice.
+ *
+ * @returns A JSX element representing the footer component.
+ */
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   

@@ -3,6 +3,12 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
+/**
+ * A contact form component that submits form data to the /api/contact API route.
+ * The component displays a success or error message based on the response from the API.
+ *
+ * @returns A JSX element representing the contact form.
+ */
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',

@@ -5,6 +5,20 @@ export const metadata = {
   description: 'Get in touch with our team for any questions or feedback about our products.',
 };
 
+/**
+ * The ContactPage component renders a contact form and contact information.
+ * The component renders a heading, a brief description, contact information,
+ * and a contact form.
+ *
+ * The contact information includes the office location, phone number, email
+ * address, and social media links.
+ *
+ * The contact form allows users to send a message to the company. The form
+ * includes fields for the user's name, email address, subject, and message.
+ *
+ * The component uses the ContactForm component to render the form.
+ */
+
 export default function ContactPage() {
   return (
     <div className="max-w-6xl mx-auto">

@@ -1,5 +1,14 @@
 'use client';
 
+/**
+ * A React component that displays an error message and a retry button.
+ * 
+ * @param {Object} props - The props for the component.
+ * @param {string} props.error - The error message to display.
+ * @param {function} [props.onRetry] - Optional callback function to execute when the retry button is clicked.
+ *                                      If not provided, the page will reload on retry.
+ */
+
 export default function ErrorDisplay({ error, onRetry }) {
   const handleRetry = () => {
     if (onRetry) {

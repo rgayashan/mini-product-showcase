@@ -9,6 +9,19 @@ import ErrorDisplay from '@/components/ErrorDisplay';
 // This page uses Server-Side Rendering
 export const dynamic = 'force-dynamic';
 
+/**
+ * Renders the details of a single product, including image, title, category, rating,
+ * price, and description. The component is designed for server-side rendering and
+ * fetches product data based on the provided product ID.
+ *
+ * If fetching the product fails or if the product is not found, an error is thrown.
+ *
+ * @param {Object} props - The props for the component.
+ * @param {string} props.id - The unique identifier for the product.
+ * @returns {JSX.Element} A JSX element displaying the detailed information of the product.
+ * @throws {Error} If the product data cannot be fetched or if the product is not found.
+ */
+
 async function ProductDetails({ id }) {
   const result = await getProductById(id);
   

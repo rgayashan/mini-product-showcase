@@ -3,6 +3,15 @@
 import { useEffect, useState } from 'react';
 import styles from './SplashScreen.module.css';
 
+/**
+ * A client-side component that displays a splash screen with a centered loader.
+ *
+ * The splash screen is displayed for 1.5 seconds and then fades out over 0.8 seconds.
+ * Once the fade out is complete, the component is removed from the DOM.
+ *
+ * @returns A JSX element representing the splash screen.
+ */
+
 export default function SplashScreen() {
   const [isVisible, setIsVisible] = useState(true);
   const [isFading, setIsFading] = useState(false);

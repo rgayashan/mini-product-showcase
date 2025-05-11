@@ -7,6 +7,16 @@ import ErrorDisplay from '@/components/ErrorDisplay';
 // This page uses Static Site Generation
 export const revalidate = 3600; // Revalidate at most once per hour
 
+/**
+ * Renders a list of products using data fetched from an API.
+ * 
+ * This function utilizes Static Site Generation to display products in a grid layout.
+ * If fetching fails or no products are available, an appropriate message is displayed.
+ * 
+ * @throws {Error} If there is an issue fetching the product data.
+ * @returns {JSX.Element} A grid of product cards or a message indicating no products are found.
+ */
+
 async function ProductList() {
   const result = await getAllProducts();
   

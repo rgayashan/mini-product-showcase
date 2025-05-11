@@ -4,6 +4,19 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+/**
+ * The Header component renders the top navigation bar with links to various pages.
+ * It includes a responsive design that adapts between desktop and mobile views.
+ * 
+ * Features:
+ * - Displays a logo and site title with animated effects.
+ * - Provides navigation links to Home, Products, Contact, and About pages.
+ * - Includes a toggleable mobile menu for smaller screens.
+ * - Uses animations for link hover effects and menu transitions.
+ * 
+ * @returns A motion-enhanced header JSX element.
+ */
+
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

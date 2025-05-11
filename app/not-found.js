@@ -1,5 +1,13 @@
 import Link from 'next/link';
 
+/**
+ * A client-side component that displays a 404 error page.
+ *
+ * The 404 page is styled with a centered layout and contains a heading,
+ * subheading, paragraph and a link to go back home.
+ *
+ * @returns A JSX element representing the 404 page.
+ */
 export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center py-16 px-4 text-center">
