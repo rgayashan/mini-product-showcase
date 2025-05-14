@@ -1,8 +1,7 @@
 import { Suspense } from 'react';
-import { getAllProducts } from '@/lib/products';
-import ProductCard from '@/components/ProductCard';
-import LoadingSpinner from '@/components/LoadingSpinner';
-import ErrorDisplay from '@/components/ErrorDisplay';
+import { getAllProducts } from '../../lib/products';
+import ProductCard from '../../components/ProductCard';
+import LoadingSpinner from '../../components/LoadingSpinner';
 
 // This page uses Static Site Generation
 export const revalidate = 3600; // Revalidate at most once per hour
@@ -66,10 +65,10 @@ export default function ProductsPage() {
           Jewelry
         </button>
         <button className="px-4 py-2 rounded-full bg-gray-100 text-gray-800 hover:bg-gray-200 transition-colors">
-          Men's Clothing
+          Men&apos;s Clothing
         </button>
         <button className="px-4 py-2 rounded-full bg-gray-100 text-gray-800 hover:bg-gray-200 transition-colors">
-          Women's Clothing
+          Women&apos;s Clothing
         </button>
       </div>
 

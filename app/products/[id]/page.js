@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Suspense } from 'react';
-import { getProductById } from '@/lib/products';
+import { getProductById } from '../../../lib/products';
 import { notFound } from 'next/navigation';
-import LoadingSpinner from '@/components/LoadingSpinner';
-import ErrorDisplay from '@/components/ErrorDisplay';
+import LoadingSpinner from '../../../components/LoadingSpinner';
+import ErrorDisplay from '../../../components/ErrorDisplay';
 
 // This page uses Server-Side Rendering
 export const dynamic = 'force-dynamic';

@@ -1,6 +1,6 @@
 'use client';
 
-import ErrorDisplay from '@/components/ErrorDisplay';
+import ErrorDisplay from '../../../components/ErrorDisplay';
 
 /**
  * A client-side component that displays a friendly error message
